@@ -16,4 +16,5 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true
   },
+  "csscomb.formatOnSave": true,
 }

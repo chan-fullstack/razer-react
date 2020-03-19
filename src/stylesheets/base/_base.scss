@@ -1,7 +1,8 @@
-*, 
-*:before, 
+*,
+*:before,
 *:after {
   margin: 0;
+
   box-sizing: border-box;
 }
 
@@ -16,9 +17,9 @@ a {
 
 .btn,
 a {
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
+          transition: all .2s ease-in-out;
 
+  -webkit-transition: all .2s ease-in-out;
   @include on-event {
     outline: 0;
     box-shadow: none;
@@ -31,12 +32,12 @@ a {
 input[type="email"],
 input[type="password"],
 input[type="text"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-focus-ring-color: none;
   outline: none;
 
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-focus-ring-color: none;
   @include on-event {
     box-shadow: none;
   }
@@ -47,6 +48,7 @@ select,
 button,
 textarea {
   outline: none;
+
   @include appearance(none);
 
   &::-webkit-outer-spin-button,
