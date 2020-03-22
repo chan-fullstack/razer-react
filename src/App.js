@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import {HashRouter, Route, Switch} from 'react-router-dom';
-import {hot} from 'react-hot-loader';
+import React, { Component } from 'react';
+import { HashRouter, Route, Switch } from 'react-router-dom';
+import { hot } from 'react-hot-loader';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
